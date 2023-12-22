@@ -18,17 +18,85 @@
 body {
   background-color: $bggrey;
   font-family: Roboto, sans-serif;
-  * {
-    line-height: calc(2px + 2ex + 2px);
+  display: grid;
+  gap: 1.5rem;
+  padding: 1rem;
+  line-height: calc(2px + 2ex + 2px);
+}
+
+header h1{
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+nav{
+  display: none;
+}
+.mobiel{
+  color: grey;
+  text-align: end;
+}
+.billboard
+{
+  background-image: url(/images/achtergrond-nacht.png);
+  height: 20rem;
+  size: cover;
+  position: relative;
+}
+.billboard h2{
+  position: absolute;
+  top: 6rem;
+  font-size: 2rem;
+  color: white;
+  padding: 0 2rem 0 1rem;
+}
+.billboard p{
+  color: white;
+  position: absolute;
+  top: 10rem;
+  margin: auto 1rem;
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+.overons{
+  h3{
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-top: 1.2rem;
   }
+  p{
+    line-height: 2rem;
+    padding-top: 0.8rem;
+    margin-bottom: 1.2rem;
+  }
+  input{
+    display: block;
+    height: 2.8rem;
+    border-radius: 0.2rem;
+    background-color: black;
+    color: white;
+    margin-bottom: 4rem;
+  }
+}
+
+
+
+
+
+
+
+
   .figuur1 {
     background-color: #56e39f;
   }
   .figuur1 > div:nth-child(1) {
     background-color: #56e39f;
+
   }
   .figuur1 > div:nth-child(2) {
     background-color: #59c9a5;
+
   }
   .figuur1 > div:nth-child(3) {
     background-color: #5b6c5d;
@@ -85,4 +153,4 @@ body {
     background-color: #ec058e;
   }
   /* alle kleuren voor dit vlak: #FF715B  #30332E  #62BBC1  #EC058E */
-}
+

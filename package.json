@@ -9,10 +9,10 @@
     "build": "vite build",
     "preview": "vite preview --open --host",
     "predeploy": "npm run build",
-    "deploy": "surge ./dist yourfrontenddomain.surge.sh",
+    "deploy": "surge ./dist opdracht3.surge.sh",
     "postdeploy": "start https://yourfrontenddomain.surge.sh"
   },
-  "author": "David Verhulst",
+  "author": "Phebe Dullers",
   "license": "ISC",
   "devDependencies": {
     "sass": "^1.69.5",
