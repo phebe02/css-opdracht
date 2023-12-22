@@ -99,75 +99,109 @@ nav{
 
 
 
+.sectie1{
+.figuur1{
+  padding-bottom: 5rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: #56e39f;
+  position: relative;
+  height: 20rem;
 
-
-
-
-
-  .figuur1 {
+}
+h3{
+  font-weight: 900;
+  font-size: 1.5rem;
+  padding-top: 1rem;
+}
+p{
+  padding-top: 1rem;
+}
+}
+.sectie1{
+  .figuur1{
+    padding-bottom: 5rem;
+    display: grid;
+    grid-template-columns: 1fr;
     background-color: #56e39f;
+    position: relative;
+    height: 20rem;
+  
   }
-  .figuur1 > div:nth-child(1) {
-    background-color: #56e39f;
+  h3{
+    font-weight: 900;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+  }
+  p{
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+  }
+  }
 
-  }
-  .figuur1 > div:nth-child(2) {
-    background-color: #59c9a5;
+  .sectie2{
+    .figuur2{
+      padding-bottom: 5rem;
+      display: grid;
+      grid-template-columns: 1fr;
+      background-color: #f1d302;
+      position: relative;
+      height: 20rem;
+    
+    }
+    h3{
+      font-weight: 900;
+      font-size: 1.5rem;
+      padding-top: 1rem;
+    }
+    p{
+      padding-top: 1rem;
+      padding-bottom: 5rem;
+    }
+    }
+    .sectie3{
+      .figuur3{
+        padding-bottom: 5rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color: #b3001b;
+        position: relative;
+        height: 20rem;
+      
+      }
+      h3{
+        font-weight: 900;
+        font-size: 1.5rem;
+        padding-top: 1rem;
+      }
+      p{
+        padding-top: 1rem;
+        padding-bottom: 5rem;
+      }
+      }
+      .sectie4{
+        .figuur4{
+          padding-bottom: 5rem;
+          display: grid;
+          grid-template-columns: 1fr;
+          background-color: #ff715b;
+          position: relative;
+          height: 20rem;
+        
+        }
+        h3{
+          font-weight: 900;
+          font-size: 1.5rem;
+          padding-top: 1rem;
+        }
+        p{
+          padding-top: 1rem;
+          padding-bottom: 5rem;
+        }
+        }
 
-  }
-  .figuur1 > div:nth-child(3) {
-    background-color: #5b6c5d;
-  }
-  .figuur1 > div:nth-child(4) {
-    background-color: #27476e;
-  }
-  /* alle kleuren voor dit vlak: #56E39F  #59C9A5  #5B6C5D  #27476E*/
-  .figuur2 {
-    background-color: #f1d302;
-  }
-  .figuur2 > div:nth-child(1) {
-    background-color: #56e39f;
-  }
-  .figuur2 > div:nth-child(2) {
-    background-color: #c1292e;
-  }
-  .figuur2 > div:nth-child(3) {
-    background-color: #235789;
-  }
-  .figuur2 > div:nth-child(4) {
-    background-color: #f0a202;
-  }
-  /* alle kleuren voor dit vlak: #F1D302  #C1292E  #235789  #F0A202 */
-  .figuur3 {
-    background-color: #b3001b;
-  }
-  .figuur3 > div:nth-child(1) {
-    background-color: #b3001b;
-  }
-  .figuur3 > div:nth-child(2) {
-    background-color: #f4e04d;
-  }
-  .figuur3 > div:nth-child(3) {
-    background-color: #54f2f2;
-  }
-  .figuur3 > div:nth-child(4) {
-    background-color: #5eb1bf;
-  }
-  /* alle kleuren voor dit vlak: #B3001B  #F4E04D  #54F2F2  #5EB1BF */
-  .figuur4 {
-    background-color: #ff715b;
-  }
-  .figuur4 > div:nth-child(1) {
-    background-color: #ff715b;
-  }
-  .figuur4 > div:nth-child(2) {
-    background-color: #30332e;
-  }
-  .figuur4 > div:nth-child(3) {
-    background-color: #62bbc1;
-  }
-  .figuur4 > div:nth-child(4) {
-    background-color: #ec058e;
-  }
-  /* alle kleuren voor dit vlak: #FF715B  #30332E  #62BBC1  #EC058E */
 
+
+
+
+  
